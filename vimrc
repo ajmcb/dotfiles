@@ -6,8 +6,8 @@
 syntax enable        	"turn on syntax highlighting
 colorscheme inori    	"set colorscheme to inori scheme in ~/.vim/colors
 
-set tabstop = 4		    "tab as 4 spaces
-set softtabstop = 4
+set tabstop=4		    "tab as 4 spaces
+set softtabstop=4
 set expandtab		    "turns tabs into spaces
 
 "move vertically by visual lines
