@@ -13,8 +13,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'       "let vundle handle vundle
 
-"Plugin 'bling/vim-airline'
-"Plugin 'edkolev/tmuxline.vim'
+Plugin 'bling/vim-airline'
+Plugin 'edkolev/tmuxline.vim'
 
 call vundle#end()                   "plugins must be added before this line
 filetype plugin indent on           "requirement for vundle
@@ -24,7 +24,7 @@ filetype plugin indent on           "requirement for vundle
 syntax enable        	            "turn on syntax highlighting
 colorscheme lucius    	            "set colorscheme to lucius scheme in ~/.vim/colors
 set background=dark                 "chooses dark lucius colourscheme
-
+let g:airline_powerline_fonts=1     "allow powerline fonts in vim-airline
 
 set tabstop=4		                "tab as 4 spaces
 set softtabstop=4
