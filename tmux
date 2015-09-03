@@ -1,4 +1,7 @@
+#source-file ~/.tmuxsnap
+
 set -g default-terminal "screen-256color"
+set -s escape-time 0
 
 unbind-key j
 bind-key j select-pane -D
