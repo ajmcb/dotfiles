@@ -6,7 +6,7 @@ Xft.hinting: true
 Xft.autohint: true
 Xft.hintstyle: hintfull
 
-URxvt.iconFile: ~/.icons/Super\ Flat\ Remix/apps/scalable/terminal.svg
+URxvt*iconFile: /home/andrew/.icons/Super\ Flat\ Remix/apps/scalable/terminal.svg
 
 URxvt*.font: xft:Ubuntu Mono derivative Powerline:pixelsize=30:antialias=true:hinting=true
 URxvt.letterSpace: -1
